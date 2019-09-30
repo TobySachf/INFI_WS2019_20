@@ -31,10 +31,67 @@ namespace Einf_Calc2
 
         private void Btn_result_Click(object sender, EventArgs e)
         {
-            if(Lb_operator.Text == "+")
+            double conNumber1, conNumber2;
+            string result;
+
+            try
             {
-                Lbl_show.Text = "Test";
+                string curItem = Lb_operator.SelectedItem.ToString();
+
+                if (curItem == "+")
+                {
+                    if (double.TryParse(Txt_input1.Text, out conNumber1) && double.TryParse(Txt_input2.Text, out conNumber2))
+                    {
+                        result = (conNumber1 + conNumber2).ToString();
+                    }
+                    else
+                    {
+                        result = "Error: Not a valid number";
+                    } 
+                    Lbl_show.Text = result;
+                }
+                if (curItem == "-")
+                {
+                    if (double.TryParse(Txt_input1.Text, out conNumber1) && double.TryParse(Txt_input2.Text, out conNumber2))
+                    {
+                        result = (conNumber1 - conNumber2).ToString();
+                    }
+                    else
+                    {
+                        result = "Error: Not a valid number";
+                    }
+                    Lbl_show.Text = result;
+                }
+                if (curItem == "*")
+                {
+                    if (double.TryParse(Txt_input1.Text, out conNumber1) && double.TryParse(Txt_input2.Text, out conNumber2))
+                    {
+                        result = (conNumber1 * conNumber2).ToString();
+                    }
+                    else
+                    {
+                        result = "Error: Not a valid number";
+                    }
+                    Lbl_show.Text = result;
+                }
+                if (curItem == "/")
+                {
+                    if (double.TryParse(Txt_input1.Text, out conNumber1) && double.TryParse(Txt_input2.Text, out conNumber2))
+                    {
+                        result = (conNumber1 / conNumber2).ToString();
+                    }
+                    else
+                    {
+                        result = "Error: Not a valid number";
+                    }
+                    Lbl_show.Text = result;
+                }
             }
+            catch
+            {
+                Lbl_show.Text = "Error: Choose operator!";
+            }
+
         }
     }
 }
