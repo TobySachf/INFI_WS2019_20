@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Einf_Calculator")]
+[assembly: AssemblyTitle("Try_Windows_Calc")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Einf_Calculator")]
+[assembly: AssemblyProduct("Try_Windows_Calc")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("80793094-59f5-4eff-a4df-1fec325068ba")]
+[assembly: Guid("24EB698C-3B88-4DE7-9386-EA49E05E5752")]
 
 // Version information for an assembly consists of the following four values:
 //
