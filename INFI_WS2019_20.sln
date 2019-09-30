@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Einf_Calc2", "Einf_Calc2\Ei
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try_Windows Calc", "Try_Windows Calc\Try_Windows Calc.csproj", "{24EB698C-3B88-4DE7-9386-EA49E05E5752}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try_Pong", "Try_Pong\Try_Pong.csproj", "{9D27A4C2-D8E2-4ED4-958C-9888D8FC4A2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{24EB698C-3B88-4DE7-9386-EA49E05E5752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24EB698C-3B88-4DE7-9386-EA49E05E5752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24EB698C-3B88-4DE7-9386-EA49E05E5752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D27A4C2-D8E2-4ED4-958C-9888D8FC4A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D27A4C2-D8E2-4ED4-958C-9888D8FC4A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D27A4C2-D8E2-4ED4-958C-9888D8FC4A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D27A4C2-D8E2-4ED4-958C-9888D8FC4A2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

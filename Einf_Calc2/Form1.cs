@@ -15,6 +15,7 @@ namespace Einf_Calc2
         public Form1()
         {
             InitializeComponent();
+            Lbl_show.Text = null;
         }
 
 
@@ -31,66 +32,39 @@ namespace Einf_Calc2
 
         private void Btn_result_Click(object sender, EventArgs e)
         {
-            double conNumber1, conNumber2;
-            string result;
+                double conNumber1, conNumber2;
 
-            try
-            {
-                string curItem = Lb_operator.SelectedItem.ToString();
+                try
+                {
+                    string currentItem = Lb_operator.SelectedItem.ToString();
 
-                if (curItem == "+")
-                {
                     if (double.TryParse(Txt_input1.Text, out conNumber1) && double.TryParse(Txt_input2.Text, out conNumber2))
                     {
-                        result = (conNumber1 + conNumber2).ToString();
+                        switch (currentItem)
+                        {
+                            case "-":
+                                Lbl_show.Text = (conNumber1 - conNumber2).ToString();
+                                break;
+                            case "*":
+                                Lbl_show.Text = (conNumber1 * conNumber2).ToString();
+                                break;
+                            case "/":
+                                Lbl_show.Text = (conNumber1 / conNumber2).ToString();
+                                break;
+                            default:
+                                Lbl_show.Text = (conNumber1 + conNumber2).ToString();
+                                break;
+                        }
                     }
                     else
                     {
-                        result = "Error: Not a valid number";
-                    } 
-                    Lbl_show.Text = result;
+                        Lbl_show.Text = "Error: Invalid Numbers!";
+                    }
                 }
-                if (curItem == "-")
+                catch
                 {
-                    if (double.TryParse(Txt_input1.Text, out conNumber1) && double.TryParse(Txt_input2.Text, out conNumber2))
-                    {
-                        result = (conNumber1 - conNumber2).ToString();
-                    }
-                    else
-                    {
-                        result = "Error: Not a valid number";
-                    }
-                    Lbl_show.Text = result;
+                    Lbl_show.Text = "Error: Choose Operator!";
                 }
-                if (curItem == "*")
-                {
-                    if (double.TryParse(Txt_input1.Text, out conNumber1) && double.TryParse(Txt_input2.Text, out conNumber2))
-                    {
-                        result = (conNumber1 * conNumber2).ToString();
-                    }
-                    else
-                    {
-                        result = "Error: Not a valid number";
-                    }
-                    Lbl_show.Text = result;
-                }
-                if (curItem == "/")
-                {
-                    if (double.TryParse(Txt_input1.Text, out conNumber1) && double.TryParse(Txt_input2.Text, out conNumber2))
-                    {
-                        result = (conNumber1 / conNumber2).ToString();
-                    }
-                    else
-                    {
-                        result = "Error: Not a valid number";
-                    }
-                    Lbl_show.Text = result;
-                }
-            }
-            catch
-            {
-                Lbl_show.Text = "Error: Choose operator!";
-            }
 
         }
     }
