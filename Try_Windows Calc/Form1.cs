@@ -15,7 +15,7 @@ namespace Try_Windows_Calc
     {
         private int numray1_index = 0;
         private int numray2_index = 0;
-        private int calcNum1, calcNum2;
+        private long calcNum1, calcNum2;
         private double calcResult;
         
         private string calcOperator, calcOperatorDisplay;
@@ -208,6 +208,7 @@ namespace Try_Windows_Calc
 
             displayResult = true;
         }
+
         private void Btn_dialCE_Click(object sender, EventArgs e)
         {
             Lbl_displayNum1.Text = null;
@@ -255,7 +256,10 @@ namespace Try_Windows_Calc
             Lbl_displayNum2.Text = sb2.ToString();
         }
 
+        private void CheckKeyInput()
+        {
 
+        }
 
     }
 }

@@ -55,12 +55,11 @@
             // 
             // Btn_dialOne
             // 
-            this.Btn_dialOne.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialOne.Location = new System.Drawing.Point(12, 455);
-            this.Btn_dialOne.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialOne.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialOne.Location = new System.Drawing.Point(10, 291);
+            this.Btn_dialOne.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialOne.Name = "Btn_dialOne";
-            this.Btn_dialOne.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialOne.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialOne.TabIndex = 0;
             this.Btn_dialOne.Text = "1";
             this.Btn_dialOne.UseVisualStyleBackColor = true;
@@ -68,12 +67,11 @@
             // 
             // Btn_dialTwo
             // 
-            this.Btn_dialTwo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialTwo.Location = new System.Drawing.Point(118, 455);
-            this.Btn_dialTwo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialTwo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialTwo.Location = new System.Drawing.Point(94, 291);
+            this.Btn_dialTwo.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialTwo.Name = "Btn_dialTwo";
-            this.Btn_dialTwo.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialTwo.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialTwo.TabIndex = 1;
             this.Btn_dialTwo.Text = "2";
             this.Btn_dialTwo.UseVisualStyleBackColor = true;
@@ -81,12 +79,11 @@
             // 
             // Btn_dialThree
             // 
-            this.Btn_dialThree.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialThree.Location = new System.Drawing.Point(224, 455);
-            this.Btn_dialThree.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialThree.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialThree.Location = new System.Drawing.Point(179, 291);
+            this.Btn_dialThree.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialThree.Name = "Btn_dialThree";
-            this.Btn_dialThree.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialThree.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialThree.TabIndex = 2;
             this.Btn_dialThree.Text = "3";
             this.Btn_dialThree.UseVisualStyleBackColor = true;
@@ -94,12 +91,11 @@
             // 
             // Btn_getResult
             // 
-            this.Btn_getResult.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_getResult.Location = new System.Drawing.Point(331, 456);
-            this.Btn_getResult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_getResult.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_getResult.Location = new System.Drawing.Point(265, 292);
+            this.Btn_getResult.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_getResult.Name = "Btn_getResult";
-            this.Btn_getResult.Size = new System.Drawing.Size(100, 206);
+            this.Btn_getResult.Size = new System.Drawing.Size(80, 132);
             this.Btn_getResult.TabIndex = 3;
             this.Btn_getResult.Text = "=";
             this.Btn_getResult.UseVisualStyleBackColor = true;
@@ -108,23 +104,22 @@
             // Lbl_displayNum1
             // 
             this.Lbl_displayNum1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Lbl_displayNum1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Lbl_displayNum1.Location = new System.Drawing.Point(12, 9);
+            this.Lbl_displayNum1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_displayNum1.Location = new System.Drawing.Point(10, 7);
+            this.Lbl_displayNum1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_displayNum1.Name = "Lbl_displayNum1";
-            this.Lbl_displayNum1.Size = new System.Drawing.Size(419, 35);
+            this.Lbl_displayNum1.Size = new System.Drawing.Size(335, 22);
             this.Lbl_displayNum1.TabIndex = 4;
             this.Lbl_displayNum1.Text = "First Number";
             this.Lbl_displayNum1.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // Btn_dialFour
             // 
-            this.Btn_dialFour.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialFour.Location = new System.Drawing.Point(12, 349);
-            this.Btn_dialFour.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialFour.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialFour.Location = new System.Drawing.Point(10, 223);
+            this.Btn_dialFour.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialFour.Name = "Btn_dialFour";
-            this.Btn_dialFour.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialFour.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialFour.TabIndex = 5;
             this.Btn_dialFour.Text = "4";
             this.Btn_dialFour.UseVisualStyleBackColor = true;
@@ -132,12 +127,11 @@
             // 
             // Btn_dialFive
             // 
-            this.Btn_dialFive.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialFive.Location = new System.Drawing.Point(118, 349);
-            this.Btn_dialFive.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialFive.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialFive.Location = new System.Drawing.Point(94, 223);
+            this.Btn_dialFive.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialFive.Name = "Btn_dialFive";
-            this.Btn_dialFive.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialFive.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialFive.TabIndex = 6;
             this.Btn_dialFive.Text = "5";
             this.Btn_dialFive.UseVisualStyleBackColor = true;
@@ -145,12 +139,11 @@
             // 
             // Btn_dialSix
             // 
-            this.Btn_dialSix.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialSix.Location = new System.Drawing.Point(224, 349);
-            this.Btn_dialSix.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialSix.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialSix.Location = new System.Drawing.Point(179, 223);
+            this.Btn_dialSix.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialSix.Name = "Btn_dialSix";
-            this.Btn_dialSix.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialSix.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialSix.TabIndex = 7;
             this.Btn_dialSix.Text = "6";
             this.Btn_dialSix.UseVisualStyleBackColor = true;
@@ -158,12 +151,11 @@
             // 
             // Btn_dialSeven
             // 
-            this.Btn_dialSeven.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialSeven.Location = new System.Drawing.Point(12, 242);
-            this.Btn_dialSeven.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialSeven.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialSeven.Location = new System.Drawing.Point(10, 155);
+            this.Btn_dialSeven.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialSeven.Name = "Btn_dialSeven";
-            this.Btn_dialSeven.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialSeven.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialSeven.TabIndex = 8;
             this.Btn_dialSeven.Text = "7";
             this.Btn_dialSeven.UseVisualStyleBackColor = true;
@@ -171,12 +163,11 @@
             // 
             // Btn_dialEight
             // 
-            this.Btn_dialEight.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialEight.Location = new System.Drawing.Point(118, 242);
-            this.Btn_dialEight.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialEight.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialEight.Location = new System.Drawing.Point(94, 155);
+            this.Btn_dialEight.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialEight.Name = "Btn_dialEight";
-            this.Btn_dialEight.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialEight.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialEight.TabIndex = 9;
             this.Btn_dialEight.Text = "8";
             this.Btn_dialEight.UseVisualStyleBackColor = true;
@@ -184,12 +175,11 @@
             // 
             // Btn_dialNine
             // 
-            this.Btn_dialNine.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialNine.Location = new System.Drawing.Point(224, 242);
-            this.Btn_dialNine.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialNine.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialNine.Location = new System.Drawing.Point(179, 155);
+            this.Btn_dialNine.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialNine.Name = "Btn_dialNine";
-            this.Btn_dialNine.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialNine.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialNine.TabIndex = 10;
             this.Btn_dialNine.Text = "9";
             this.Btn_dialNine.UseVisualStyleBackColor = true;
@@ -197,12 +187,11 @@
             // 
             // Btn_plus
             // 
-            this.Btn_plus.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_plus.Location = new System.Drawing.Point(12, 138);
-            this.Btn_plus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_plus.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_plus.Location = new System.Drawing.Point(10, 88);
+            this.Btn_plus.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_plus.Name = "Btn_plus";
-            this.Btn_plus.Size = new System.Drawing.Size(100, 100);
+            this.Btn_plus.Size = new System.Drawing.Size(80, 64);
             this.Btn_plus.TabIndex = 14;
             this.Btn_plus.Text = "+\r\n";
             this.Btn_plus.UseVisualStyleBackColor = true;
@@ -210,12 +199,11 @@
             // 
             // Btn_minus
             // 
-            this.Btn_minus.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_minus.Location = new System.Drawing.Point(118, 138);
-            this.Btn_minus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_minus.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_minus.Location = new System.Drawing.Point(94, 88);
+            this.Btn_minus.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_minus.Name = "Btn_minus";
-            this.Btn_minus.Size = new System.Drawing.Size(100, 100);
+            this.Btn_minus.Size = new System.Drawing.Size(80, 64);
             this.Btn_minus.TabIndex = 15;
             this.Btn_minus.Text = "-";
             this.Btn_minus.UseVisualStyleBackColor = true;
@@ -223,12 +211,11 @@
             // 
             // Btn_divided
             // 
-            this.Btn_divided.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_divided.Location = new System.Drawing.Point(331, 138);
-            this.Btn_divided.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_divided.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_divided.Location = new System.Drawing.Point(265, 88);
+            this.Btn_divided.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_divided.Name = "Btn_divided";
-            this.Btn_divided.Size = new System.Drawing.Size(100, 100);
+            this.Btn_divided.Size = new System.Drawing.Size(80, 64);
             this.Btn_divided.TabIndex = 16;
             this.Btn_divided.Text = "÷";
             this.Btn_divided.UseVisualStyleBackColor = true;
@@ -236,12 +223,11 @@
             // 
             // Btn_dialCE
             // 
-            this.Btn_dialCE.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialCE.Location = new System.Drawing.Point(330, 351);
-            this.Btn_dialCE.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialCE.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialCE.Location = new System.Drawing.Point(264, 225);
+            this.Btn_dialCE.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialCE.Name = "Btn_dialCE";
-            this.Btn_dialCE.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialCE.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialCE.TabIndex = 17;
             this.Btn_dialCE.Text = "CE";
             this.Btn_dialCE.UseVisualStyleBackColor = true;
@@ -249,24 +235,22 @@
             // 
             // Btn_dialBack
             // 
-            this.Btn_dialBack.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialBack.Location = new System.Drawing.Point(330, 242);
-            this.Btn_dialBack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialBack.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialBack.Location = new System.Drawing.Point(264, 155);
+            this.Btn_dialBack.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialBack.Name = "Btn_dialBack";
-            this.Btn_dialBack.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialBack.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialBack.TabIndex = 18;
             this.Btn_dialBack.Text = "Back";
             this.Btn_dialBack.UseVisualStyleBackColor = true;
             // 
             // Btn_multiplied
             // 
-            this.Btn_multiplied.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_multiplied.Location = new System.Drawing.Point(224, 138);
-            this.Btn_multiplied.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_multiplied.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_multiplied.Location = new System.Drawing.Point(179, 88);
+            this.Btn_multiplied.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_multiplied.Name = "Btn_multiplied";
-            this.Btn_multiplied.Size = new System.Drawing.Size(100, 100);
+            this.Btn_multiplied.Size = new System.Drawing.Size(80, 64);
             this.Btn_multiplied.TabIndex = 19;
             this.Btn_multiplied.Text = "×";
             this.Btn_multiplied.UseVisualStyleBackColor = true;
@@ -274,12 +258,11 @@
             // 
             // Btn_dialZero
             // 
-            this.Btn_dialZero.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialZero.Location = new System.Drawing.Point(118, 561);
-            this.Btn_dialZero.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialZero.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialZero.Location = new System.Drawing.Point(94, 359);
+            this.Btn_dialZero.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialZero.Name = "Btn_dialZero";
-            this.Btn_dialZero.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialZero.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialZero.TabIndex = 20;
             this.Btn_dialZero.Text = "0";
             this.Btn_dialZero.UseVisualStyleBackColor = true;
@@ -287,24 +270,22 @@
             // 
             // Btn_dialComma
             // 
-            this.Btn_dialComma.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Btn_dialComma.Location = new System.Drawing.Point(224, 562);
-            this.Btn_dialComma.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_dialComma.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_dialComma.Location = new System.Drawing.Point(179, 360);
+            this.Btn_dialComma.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.Btn_dialComma.Name = "Btn_dialComma";
-            this.Btn_dialComma.Size = new System.Drawing.Size(100, 100);
+            this.Btn_dialComma.Size = new System.Drawing.Size(80, 64);
             this.Btn_dialComma.TabIndex = 21;
             this.Btn_dialComma.Text = "Not ready yet";
             this.Btn_dialComma.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.button3.Location = new System.Drawing.Point(12, 562);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(10, 360);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 100);
+            this.button3.Size = new System.Drawing.Size(80, 64);
             this.button3.TabIndex = 22;
             this.button3.Text = "Spaceholder";
             this.button3.UseVisualStyleBackColor = true;
@@ -312,11 +293,11 @@
             // Lbl_displayOperator
             // 
             this.Lbl_displayOperator.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Lbl_displayOperator.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Lbl_displayOperator.Location = new System.Drawing.Point(12, 44);
+            this.Lbl_displayOperator.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_displayOperator.Location = new System.Drawing.Point(10, 29);
+            this.Lbl_displayOperator.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_displayOperator.Name = "Lbl_displayOperator";
-            this.Lbl_displayOperator.Size = new System.Drawing.Size(419, 35);
+            this.Lbl_displayOperator.Size = new System.Drawing.Size(335, 22);
             this.Lbl_displayOperator.TabIndex = 24;
             this.Lbl_displayOperator.Text = "Operator";
             this.Lbl_displayOperator.TextAlign = System.Drawing.ContentAlignment.BottomRight;
@@ -324,21 +305,21 @@
             // Lbl_displayNum2
             // 
             this.Lbl_displayNum2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Lbl_displayNum2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Lbl_displayNum2.Location = new System.Drawing.Point(12, 79);
+            this.Lbl_displayNum2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_displayNum2.Location = new System.Drawing.Point(10, 51);
+            this.Lbl_displayNum2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_displayNum2.Name = "Lbl_displayNum2";
-            this.Lbl_displayNum2.Size = new System.Drawing.Size(419, 35);
+            this.Lbl_displayNum2.Size = new System.Drawing.Size(335, 22);
             this.Lbl_displayNum2.TabIndex = 25;
             this.Lbl_displayNum2.Text = "Second Number";
             this.Lbl_displayNum2.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(443, 692);
+            this.ClientSize = new System.Drawing.Size(354, 443);
             this.Controls.Add(this.Lbl_displayNum2);
             this.Controls.Add(this.Lbl_displayOperator);
             this.Controls.Add(this.button3);
@@ -361,10 +342,11 @@
             this.Controls.Add(this.Btn_dialThree);
             this.Controls.Add(this.Btn_dialTwo);
             this.Controls.Add(this.Btn_dialOne);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "Form1";
             this.Text = "Calculator";
             this.ResumeLayout(false);
+
         }
 
         #endregion
