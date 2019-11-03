@@ -30,28 +30,28 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Txt_MyPersons = new System.Windows.Forms.TextBox();
+            this.Txt_MyPersonA = new System.Windows.Forms.TextBox();
             this.Btn_disPerson1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Lbl_birthdayPersonB = new System.Windows.Forms.Label();
+            this.Lbl_lastNameB = new System.Windows.Forms.Label();
+            this.Lbl_firstNameB = new System.Windows.Forms.Label();
+            this.Txt_birthdayPersonB = new System.Windows.Forms.TextBox();
+            this.Txt_lastNamePersonB = new System.Windows.Forms.TextBox();
+            this.Txt_firstNamePersonB = new System.Windows.Forms.TextBox();
+            this.Btn_changePersonB = new System.Windows.Forms.Button();
+            this.Txt_MyPersonB = new System.Windows.Forms.TextBox();
+            this.Btn_disPerson2 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.Lbl_birthdayPersonC = new System.Windows.Forms.Label();
+            this.Txt_MyPersonC = new System.Windows.Forms.TextBox();
+            this.Lbl_lastNameC = new System.Windows.Forms.Label();
+            this.Btn_disPerson3 = new System.Windows.Forms.Button();
+            this.Lbl_firstNameC = new System.Windows.Forms.Label();
+            this.Txt_firstNamePersonC = new System.Windows.Forms.TextBox();
+            this.Txt_birthdayPersonC = new System.Windows.Forms.TextBox();
+            this.Btn_changePersonC = new System.Windows.Forms.Button();
+            this.Txt_lastNamePersonC = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -59,33 +59,32 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.Txt_MyPersons);
+            this.groupBox1.Controls.Add(this.Txt_MyPersonA);
             this.groupBox1.Controls.Add(this.Btn_disPerson1);
-            this.groupBox1.Location = new System.Drawing.Point(51, 14);
+            this.groupBox1.Location = new System.Drawing.Point(57, 14);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(725, 141);
+            this.groupBox1.Size = new System.Drawing.Size(816, 141);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // Txt_MyPersons
+            // Txt_MyPersonA
             // 
-            this.Txt_MyPersons.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.Txt_MyPersons.Location = new System.Drawing.Point(6, 66);
-            this.Txt_MyPersons.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Txt_MyPersons.Name = "Txt_MyPersons";
-            this.Txt_MyPersons.Size = new System.Drawing.Size(713, 51);
-            this.Txt_MyPersons.TabIndex = 1;
+            this.Txt_MyPersonA.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_MyPersonA.Location = new System.Drawing.Point(7, 66);
+            this.Txt_MyPersonA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Txt_MyPersonA.Name = "Txt_MyPersonA";
+            this.Txt_MyPersonA.Size = new System.Drawing.Size(802, 60);
+            this.Txt_MyPersonA.TabIndex = 1;
             // 
             // Btn_disPerson1
             // 
-            this.Btn_disPerson1.Location = new System.Drawing.Point(6, 29);
+            this.Btn_disPerson1.Location = new System.Drawing.Point(7, 29);
             this.Btn_disPerson1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_disPerson1.Name = "Btn_disPerson1";
-            this.Btn_disPerson1.Size = new System.Drawing.Size(154, 32);
+            this.Btn_disPerson1.Size = new System.Drawing.Size(173, 32);
             this.Btn_disPerson1.TabIndex = 0;
             this.Btn_disPerson1.Text = "Display Person A\r\n";
             this.Btn_disPerson1.UseVisualStyleBackColor = true;
@@ -93,211 +92,213 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Location = new System.Drawing.Point(51, 160);
+            this.groupBox2.Controls.Add(this.Lbl_birthdayPersonB);
+            this.groupBox2.Controls.Add(this.Lbl_lastNameB);
+            this.groupBox2.Controls.Add(this.Lbl_firstNameB);
+            this.groupBox2.Controls.Add(this.Txt_birthdayPersonB);
+            this.groupBox2.Controls.Add(this.Txt_lastNamePersonB);
+            this.groupBox2.Controls.Add(this.Txt_firstNamePersonB);
+            this.groupBox2.Controls.Add(this.Btn_changePersonB);
+            this.groupBox2.Controls.Add(this.Txt_MyPersonB);
+            this.groupBox2.Controls.Add(this.Btn_disPerson2);
+            this.groupBox2.Location = new System.Drawing.Point(57, 160);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(725, 196);
+            this.groupBox2.Size = new System.Drawing.Size(816, 196);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
             // 
-            // label3
+            // Lbl_birthdayPersonB
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(296, 168);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 20);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "label3";
+            this.Lbl_birthdayPersonB.AutoSize = true;
+            this.Lbl_birthdayPersonB.Location = new System.Drawing.Point(332, 169);
+            this.Lbl_birthdayPersonB.Name = "Lbl_birthdayPersonB";
+            this.Lbl_birthdayPersonB.Size = new System.Drawing.Size(67, 20);
+            this.Lbl_birthdayPersonB.TabIndex = 8;
+            this.Lbl_birthdayPersonB.Text = "Birthday";
             // 
-            // label2
+            // Lbl_lastNameB
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(190, 168);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 20);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "label2";
+            this.Lbl_lastNameB.AutoSize = true;
+            this.Lbl_lastNameB.Location = new System.Drawing.Point(96, 169);
+            this.Lbl_lastNameB.Name = "Lbl_lastNameB";
+            this.Lbl_lastNameB.Size = new System.Drawing.Size(86, 20);
+            this.Lbl_lastNameB.TabIndex = 7;
+            this.Lbl_lastNameB.Text = "Last Name";
             // 
-            // label1
+            // Lbl_firstNameB
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(84, 168);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 20);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "label1";
+            this.Lbl_firstNameB.AutoSize = true;
+            this.Lbl_firstNameB.Location = new System.Drawing.Point(213, 169);
+            this.Lbl_firstNameB.Name = "Lbl_firstNameB";
+            this.Lbl_firstNameB.Size = new System.Drawing.Size(86, 20);
+            this.Lbl_firstNameB.TabIndex = 6;
+            this.Lbl_firstNameB.Text = "First Name";
             // 
-            // textBox5
+            // Txt_birthdayPersonB
             // 
-            this.textBox5.Location = new System.Drawing.Point(299, 136);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 27);
-            this.textBox5.TabIndex = 5;
+            this.Txt_birthdayPersonB.Location = new System.Drawing.Point(335, 137);
+            this.Txt_birthdayPersonB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Txt_birthdayPersonB.Name = "Txt_birthdayPersonB";
+            this.Txt_birthdayPersonB.Size = new System.Drawing.Size(112, 26);
+            this.Txt_birthdayPersonB.TabIndex = 5;
             // 
-            // textBox4
+            // Txt_lastNamePersonB
             // 
-            this.textBox4.Location = new System.Drawing.Point(193, 136);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 27);
-            this.textBox4.TabIndex = 4;
+            this.Txt_lastNamePersonB.Location = new System.Drawing.Point(99, 137);
+            this.Txt_lastNamePersonB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Txt_lastNamePersonB.Name = "Txt_lastNamePersonB";
+            this.Txt_lastNamePersonB.Size = new System.Drawing.Size(112, 26);
+            this.Txt_lastNamePersonB.TabIndex = 4;
             // 
-            // textBox3
+            // Txt_firstNamePersonB
             // 
-            this.textBox3.Location = new System.Drawing.Point(87, 136);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 27);
-            this.textBox3.TabIndex = 3;
+            this.Txt_firstNamePersonB.Location = new System.Drawing.Point(217, 137);
+            this.Txt_firstNamePersonB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Txt_firstNamePersonB.Name = "Txt_firstNamePersonB";
+            this.Txt_firstNamePersonB.Size = new System.Drawing.Size(112, 26);
+            this.Txt_firstNamePersonB.TabIndex = 3;
             // 
-            // button3
+            // Btn_changePersonB
             // 
-            this.button3.Location = new System.Drawing.Point(6, 136);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 29);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Btn_changePersonB.Location = new System.Drawing.Point(7, 136);
+            this.Btn_changePersonB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Btn_changePersonB.Name = "Btn_changePersonB";
+            this.Btn_changePersonB.Size = new System.Drawing.Size(84, 29);
+            this.Btn_changePersonB.TabIndex = 2;
+            this.Btn_changePersonB.Text = "Change";
+            this.Btn_changePersonB.UseVisualStyleBackColor = true;
+            this.Btn_changePersonB.Click += new System.EventHandler(this.Btn_changePersonB_Click);
             // 
-            // textBox1
+            // Txt_MyPersonB
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.textBox1.Location = new System.Drawing.Point(6, 66);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(713, 51);
-            this.textBox1.TabIndex = 1;
+            this.Txt_MyPersonB.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_MyPersonB.Location = new System.Drawing.Point(7, 66);
+            this.Txt_MyPersonB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Txt_MyPersonB.Name = "Txt_MyPersonB";
+            this.Txt_MyPersonB.Size = new System.Drawing.Size(802, 60);
+            this.Txt_MyPersonB.TabIndex = 1;
             // 
-            // button1
+            // Btn_disPerson2
             // 
-            this.button1.Location = new System.Drawing.Point(6, 29);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 32);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Display Person A\r\n";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Btn_disPerson2.Location = new System.Drawing.Point(7, 29);
+            this.Btn_disPerson2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_disPerson2.Name = "Btn_disPerson2";
+            this.Btn_disPerson2.Size = new System.Drawing.Size(173, 32);
+            this.Btn_disPerson2.TabIndex = 0;
+            this.Btn_disPerson2.Text = "Display Person A\r\n";
+            this.Btn_disPerson2.UseVisualStyleBackColor = true;
+            this.Btn_disPerson2.Click += new System.EventHandler(this.Btn_disPerson2_Click_1);
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.textBox2);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.button2);
-            this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Controls.Add(this.textBox8);
-            this.groupBox3.Controls.Add(this.textBox6);
-            this.groupBox3.Controls.Add(this.button4);
-            this.groupBox3.Controls.Add(this.textBox7);
-            this.groupBox3.Location = new System.Drawing.Point(51, 376);
+            this.groupBox3.Controls.Add(this.Lbl_birthdayPersonC);
+            this.groupBox3.Controls.Add(this.Txt_MyPersonC);
+            this.groupBox3.Controls.Add(this.Lbl_lastNameC);
+            this.groupBox3.Controls.Add(this.Btn_disPerson3);
+            this.groupBox3.Controls.Add(this.Lbl_firstNameC);
+            this.groupBox3.Controls.Add(this.Txt_firstNamePersonC);
+            this.groupBox3.Controls.Add(this.Txt_birthdayPersonC);
+            this.groupBox3.Controls.Add(this.Btn_changePersonC);
+            this.groupBox3.Controls.Add(this.Txt_lastNamePersonC);
+            this.groupBox3.Location = new System.Drawing.Point(57, 376);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(725, 194);
+            this.groupBox3.Size = new System.Drawing.Size(816, 194);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "groupBox3";
             // 
-            // label4
+            // Lbl_birthdayPersonC
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(296, 168);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 20);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "label4";
+            this.Lbl_birthdayPersonC.AutoSize = true;
+            this.Lbl_birthdayPersonC.Location = new System.Drawing.Point(333, 169);
+            this.Lbl_birthdayPersonC.Name = "Lbl_birthdayPersonC";
+            this.Lbl_birthdayPersonC.Size = new System.Drawing.Size(67, 20);
+            this.Lbl_birthdayPersonC.TabIndex = 15;
+            this.Lbl_birthdayPersonC.Text = "Brithday";
             // 
-            // textBox2
+            // Txt_MyPersonC
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.textBox2.Location = new System.Drawing.Point(6, 66);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(713, 51);
-            this.textBox2.TabIndex = 1;
+            this.Txt_MyPersonC.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_MyPersonC.Location = new System.Drawing.Point(7, 66);
+            this.Txt_MyPersonC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Txt_MyPersonC.Name = "Txt_MyPersonC";
+            this.Txt_MyPersonC.Size = new System.Drawing.Size(802, 60);
+            this.Txt_MyPersonC.TabIndex = 1;
             // 
-            // label5
+            // Lbl_lastNameC
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(190, 168);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 20);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "label5";
+            this.Lbl_lastNameC.AutoSize = true;
+            this.Lbl_lastNameC.Location = new System.Drawing.Point(97, 168);
+            this.Lbl_lastNameC.Name = "Lbl_lastNameC";
+            this.Lbl_lastNameC.Size = new System.Drawing.Size(86, 20);
+            this.Lbl_lastNameC.TabIndex = 14;
+            this.Lbl_lastNameC.Text = "Last Name";
             // 
-            // button2
+            // Btn_disPerson3
             // 
-            this.button2.Location = new System.Drawing.Point(6, 29);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(154, 32);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Display Person A\r\n";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Btn_disPerson3.Location = new System.Drawing.Point(7, 29);
+            this.Btn_disPerson3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_disPerson3.Name = "Btn_disPerson3";
+            this.Btn_disPerson3.Size = new System.Drawing.Size(173, 32);
+            this.Btn_disPerson3.TabIndex = 0;
+            this.Btn_disPerson3.Text = "Display Person A\r\n";
+            this.Btn_disPerson3.UseVisualStyleBackColor = true;
+            this.Btn_disPerson3.Click += new System.EventHandler(this.Btn_disPerson3_Click_1);
             // 
-            // label6
+            // Lbl_firstNameC
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(84, 168);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 20);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "label6";
+            this.Lbl_firstNameC.AutoSize = true;
+            this.Lbl_firstNameC.Location = new System.Drawing.Point(214, 168);
+            this.Lbl_firstNameC.Name = "Lbl_firstNameC";
+            this.Lbl_firstNameC.Size = new System.Drawing.Size(80, 20);
+            this.Lbl_firstNameC.TabIndex = 13;
+            this.Lbl_firstNameC.Text = "Firstname";
             // 
-            // textBox8
+            // Txt_firstNamePersonC
             // 
-            this.textBox8.Location = new System.Drawing.Point(87, 136);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 27);
-            this.textBox8.TabIndex = 10;
+            this.Txt_firstNamePersonC.Location = new System.Drawing.Point(218, 136);
+            this.Txt_firstNamePersonC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Txt_firstNamePersonC.Name = "Txt_firstNamePersonC";
+            this.Txt_firstNamePersonC.Size = new System.Drawing.Size(112, 26);
+            this.Txt_firstNamePersonC.TabIndex = 10;
             // 
-            // textBox6
+            // Txt_birthdayPersonC
             // 
-            this.textBox6.Location = new System.Drawing.Point(299, 136);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 27);
-            this.textBox6.TabIndex = 12;
+            this.Txt_birthdayPersonC.Location = new System.Drawing.Point(336, 137);
+            this.Txt_birthdayPersonC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Txt_birthdayPersonC.Name = "Txt_birthdayPersonC";
+            this.Txt_birthdayPersonC.Size = new System.Drawing.Size(112, 26);
+            this.Txt_birthdayPersonC.TabIndex = 12;
             // 
-            // button4
+            // Btn_changePersonC
             // 
-            this.button4.Location = new System.Drawing.Point(6, 136);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 29);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.Btn_changePersonC.Location = new System.Drawing.Point(7, 136);
+            this.Btn_changePersonC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Btn_changePersonC.Name = "Btn_changePersonC";
+            this.Btn_changePersonC.Size = new System.Drawing.Size(84, 29);
+            this.Btn_changePersonC.TabIndex = 9;
+            this.Btn_changePersonC.Text = "Change";
+            this.Btn_changePersonC.UseVisualStyleBackColor = true;
+            this.Btn_changePersonC.Click += new System.EventHandler(this.Btn_changePersonC_Click);
             // 
-            // textBox7
+            // Txt_lastNamePersonC
             // 
-            this.textBox7.Location = new System.Drawing.Point(193, 136);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 27);
-            this.textBox7.TabIndex = 11;
+            this.Txt_lastNamePersonC.Location = new System.Drawing.Point(100, 136);
+            this.Txt_lastNamePersonC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Txt_lastNamePersonC.Name = "Txt_lastNamePersonC";
+            this.Txt_lastNamePersonC.Size = new System.Drawing.Size(112, 26);
+            this.Txt_lastNamePersonC.TabIndex = 11;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1197, 940);
+            this.ClientSize = new System.Drawing.Size(1347, 940);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -311,32 +312,33 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
+
         }
 
         #endregion
 
         private System.Windows.Forms.Button Btn_disPerson1;
-        private System.Windows.Forms.TextBox Txt_MyPersons;
+        private System.Windows.Forms.TextBox Txt_MyPersonA;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox Txt_MyPersonB;
+        private System.Windows.Forms.Button Btn_disPerson2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox Txt_MyPersonC;
+        private System.Windows.Forms.Button Btn_disPerson3;
+        private System.Windows.Forms.Label Lbl_birthdayPersonB;
+        private System.Windows.Forms.Label Lbl_lastNameB;
+        private System.Windows.Forms.Label Lbl_firstNameB;
+        private System.Windows.Forms.TextBox Txt_birthdayPersonB;
+        private System.Windows.Forms.TextBox Txt_lastNamePersonB;
+        private System.Windows.Forms.TextBox Txt_firstNamePersonB;
+        private System.Windows.Forms.Button Btn_changePersonB;
+        private System.Windows.Forms.Label Lbl_birthdayPersonC;
+        private System.Windows.Forms.Label Lbl_lastNameC;
+        private System.Windows.Forms.Label Lbl_firstNameC;
+        private System.Windows.Forms.TextBox Txt_firstNamePersonC;
+        private System.Windows.Forms.TextBox Txt_birthdayPersonC;
+        private System.Windows.Forms.Button Btn_changePersonC;
+        private System.Windows.Forms.TextBox Txt_lastNamePersonC;
     }
 }

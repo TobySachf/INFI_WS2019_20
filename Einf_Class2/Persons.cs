@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace Einf_Class2
 {
@@ -44,10 +45,10 @@ namespace Einf_Class2
         
         //overloaded-constructor 2 ... initialize function with params
 
-        public Persons(string inLastname, string inFirstname, DateTime inBirthday)
+        public Persons(string inLastName, string inFirstName, DateTime inBirthday)
         {
-            lastname = inLastname;
-            firstname = inFirstname;
+            lastname = inLastName;
+            firstname = inFirstName;
             brithday = inBirthday;
         }
 
@@ -64,14 +65,35 @@ namespace Einf_Class2
             return age;
         }
 
-        public void ChangeAge(DateTime inBirthday)
+        public void ChangeValues(String inLastName, String inFirstName, String inBirthday)
         {
-            brithday = inBirthday;
+
+            try
+            {
+                if (inLastName != null && inLastName != "")
+                {
+                    lastname = inLastName;
+                }
+                if (inFirstName != null && inFirstName != "")
+                {
+                    firstname = inFirstName;
+                }
+                if (inBirthday != null && inBirthday != "")
+                {
+                    string[] values = inBirthday.Split(',', '.');
+                    brithday = new DateTime(Convert.ToInt32(values[2]), Convert.ToInt32(values[1]), Convert.ToInt32(values[0]));
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
         }
 
         public string RetrunPersons()
         {
-            string outputString = lastname + firstname + brithday.ToString();
+            string outputString = lastname + " " + firstname +  " " + brithday.ToString();
             return (outputString);
         }
     }
